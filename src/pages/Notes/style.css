@@ -1,0 +1,33 @@
+.home {
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.home.grid .note-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 0.8rem;
+}
+
+.note-input.note {
+    margin: 0.8rem;
+    padding: 0 !important;
+}
+
+.note-input.note .note-input__inner {
+    padding-bottom: 0;
+}
+
+.home.grid .note-container .note-input:not(.note) {
+    grid-column: span 2;
+}
+
+.home .creater {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 620px) {
+    .note-container {
+        grid-template-columns: unset;
+    }
+}

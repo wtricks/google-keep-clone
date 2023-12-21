@@ -1,0 +1,42 @@
+.button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border: 1px solid transparent;
+    transition: opacity 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button--primary {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+.button--secondry {
+    color: var(--text-color-1);
+    justify-content: center;
+    background-color: var(--gray-bg-1);
+}
+
+.button--icon {
+    color: var(--text-color-2);
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: transparent;
+    transition: background 0.3s;
+}
+
+.button--icon:hover {
+    background-color: var(--gray-bg-2);
+}

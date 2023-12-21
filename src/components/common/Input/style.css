@@ -1,0 +1,37 @@
+.input-group {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-color: var(--gray-bg-1);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding-right: 0.3rem;
+}
+
+.input-group__input {
+    height: 100%;
+    flex: 1;
+    padding: 0.7rem 0.8rem;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--text-color-1);
+}
+
+.input-group__input::placeholder {
+    font-size: 1.1rem;
+    color: var(--text-color-2);
+}
+
+.input-group__textrea {
+    height: 100px;
+    resize: none;
+}
+
+.input-group__button {
+    margin-bottom: auto;
+    margin-top: 0.1rem;
+}

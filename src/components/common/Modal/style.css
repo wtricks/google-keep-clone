@@ -1,0 +1,63 @@
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.modal__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.modal__dailog {
+    z-index: 20;
+    background-color: #fff;
+    width: 100%;
+    max-width: 480px;
+    height: max-content;
+    max-height: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 4rem;
+}
+
+.modal__header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 0.4rem;
+    border-bottom: 1px solid var(--gray-bg-1);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--body-background);
+}
+
+.modal__heading {
+    color: var(--text-color-1);
+    margin: 0;
+    margin-left: 0.7rem;
+    margin-right: auto;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .modal__dailog {
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+}

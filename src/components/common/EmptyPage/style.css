@@ -1,0 +1,18 @@
+.empty-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.empty-page__heading {
+    font-size: 1.4rem;
+    color: var(--text-color-1);
+    font-weight: 400;
+}
+
+.empty-page svg {
+    color: var(--gray-bg-1);
+    margin-bottom: 1rem;
+}

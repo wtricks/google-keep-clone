@@ -1,0 +1,100 @@
+.note-input {
+    width: 100%;
+    padding: 0 2rem;
+    margin-top: 2.5rem;
+}
+
+.note-input__inner {
+    border-radius: 8px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.note-input__inner .input-group {
+    background-color: transparent;
+}
+
+.note-input__inner .input-group input {
+    font-weight: 500;
+}
+
+.note-input__inner .input-group input::placeholder {
+    font-size: 1.2rem;
+}
+
+.note-input__inner .input-group textarea {
+    font-weight: 400;
+}
+
+.note-input__top {
+    padding: 0 0.6rem;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note-input.note .note-input__footer {
+    opacity: 0;
+}
+
+.note-input.note:hover .note-input__footer {
+    opacity: 1;
+}
+
+.note-input.note .note-input__buttons {
+    padding-top: 0;
+}
+
+.note-input__top h4 {
+    margin-top: 0.6rem;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.note-input__buttons {
+    display: flex;
+    align-items: center;
+    padding: 0.4rem 0.5rem;
+}
+
+.note-input__footer .button {
+    margin: 0 0.4rem;
+}
+
+.note-input__color-plate {
+    flex: 1;
+    border-top: 1px solid var(--gray-bg-1);
+    margin: 0.2rem 0.4rem;
+    padding: 0.5rem 0.4rem;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.note-input__color-plate .button {
+    border: 2px solid var(--text-color-1);
+}
+
+.note-input__color-plate .button:not(:first-child) {
+    padding: 1.2rem;
+}
+
+.button--selected {
+    border-color: var(--primary) !important;
+}
+
+.note-input__content {
+    color: var(--text-color-3);
+    margin: 0;
+    padding: 0.4rem 0.5rem;
+}
+
+.note-input.note .note-input__buttons .button:not(.edit--button) {
+    display: none;
+}
+
+@media (max-width: 657px) {
+    .note-input {
+        padding: 0 0.8rem;
+        margin-top: 1rem;
+    }
+}

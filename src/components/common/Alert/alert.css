@@ -1,0 +1,44 @@
+.alert-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.8rem;
+    z-index: 100;
+}
+
+.alert {
+    display: flex;
+    border: 1px solid;
+    width: 100%;
+    max-width: 420px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 4px;
+    padding: 0rem 0.8rem;
+    align-items: center;
+    transform: translateX(-50px);
+    transition: 0.3s;
+    margin: 0.2rem 0;
+}
+
+.alert--show {
+    transform: unset;
+}
+
+.alert__message {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+    margin-right: auto;
+}
+
+.alert__ctrls {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: max-content;
+}
+
+.alert__button:nth-of-type(1) {
+    margin-right: 0.8rem
+}
