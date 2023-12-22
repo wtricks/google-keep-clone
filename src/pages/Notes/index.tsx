@@ -30,7 +30,9 @@ export default function Home() {
     }
 
     const removeNote = (index: number) => {
-        setNotes(notes.filter((_, i) => i != index))
+        if (confirm("Are sure to remove this note ?")) {
+           setNotes(notes.filter((_, i) => i != index))
+        }
     }
 
     return (
