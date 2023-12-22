@@ -3,7 +3,7 @@
 Welcome to the Google Keep Clone project! This is a simple note-taking application built using ReactJS and TypeScript, designed to replicate the core functionality of Google Keep.
 
 ## Deployed Link
-You can access the deployed version of the Google Keep Clone at [Vercel](https://google-keep-clone-pied.vercel.app/) (Note: This is a dummy link for illustration purposes).
+You can access the deployed version of the Google Keep Clone at [Vercel](https://google-keep-clone-pied.vercel.app/).
 
 ## Description
 The Google Keep Clone is a web application that allows users to create, edit, and delete notes. It provides a user-friendly interface for managing your notes, similar to the popular Google Keep application. The project is built using modern web technologies, including ReactJS and TypeScript, to ensure a robust and scalable codebase.
@@ -17,7 +17,7 @@ The Google Keep Clone is a web application that allows users to create, edit, an
 ## Usage Guide
 1. **Clone the Repository:**
    ```
-   git clone https://github.com/your-username/google-keep-clone.git
+   git clone https://github.com/wtricks/google-keep-clone
    cd google-keep-clone
    ```
 
