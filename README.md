@@ -28,9 +28,9 @@ The Google Keep Clone is a web application that allows users to create, edit, an
 
 3. **Run the Application:**
    ```
-   pnnpm run dev
+   pnpm run dev
    ```
-   This will start the development server, and you can view the application by navigating to `http://localhost:3000` in your web browser.
+   This will start the development server, and you can view the application by navigating to `http://localhost:5173` in your web browser.
 
 4. **Usage:**
    - Click on the "New Note" button to create a new note.
